@@ -1,7 +1,7 @@
 # AI Image Generator (Basic)
 
 A web-based application that generates images using OpenAI's DALL-E API. The application features voice-to-text functionality and a modern user interface.
-Website link : View
+Website link : [View](https://ratna-babu.github.io/Ai-Image-Generator-Basic/imgindex.html)
 
 ## Features
 
