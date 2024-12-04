@@ -28,10 +28,12 @@ Website link : View
 
 2. Navigate to the project directory
 
-
 3. Add your OpenAI API key:
    - Open `app.js`
    - Replace `{YOUR API KEY}` with your actual OpenAI API key
+  
+     ![Screenshot 2024-12-04 204348](https://github.com/user-attachments/assets/095f51c0-20a0-4462-b22d-f295208f96ad)
+
 
 4. Open `index.html` in a web browser or serve it using a local development server.
 
@@ -47,13 +49,3 @@ Website link : View
    - The text will appear in the input field automatically
    - Click the arrow button to generate images
 
-## Project Structure
-
-ai-image-generator/
-├── app.js # Main JavaScript file
-├── index.html # Main HTML file
-├── styles.css # Main styles
-├── navstyle.css # Navigation styles
-├── home.html # Home page
-├── imgindex.html # Image editor page
-└── [other asset files]
