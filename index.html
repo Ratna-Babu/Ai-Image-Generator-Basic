@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ai image generator</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="navstyle.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <body>
+        <textarea id="textbox" rows="5" ></textarea>
+        <nav>
+            <label class="logos">AI IMAGE GENERATOR</label>
+            <ul>
+              <li><a id="new" href="home.html">Home</a></li>
+              <li><a id="new" class="actives" href="index.html">Generator</a></li>
+              <li><a id="new" href="imgindex.html">Image Editor</a></li>
+              
+             
+            </ul>
+          </nav>
+        <div>
+            <svg class="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="visual" viewBox="0 0 900 600"  version="1.1"><rect x="0" y="0" width="100vw" height="100vw" fill="#001220"/><path d="M0 313L21.5 323.8C43 334.7 86 356.3 128.8 360.2C171.7 364 214.3 350 257.2 348.5C300 347 343 358 385.8 359.5C428.7 361 471.3 353 514.2 353.7C557 354.3 600 363.7 642.8 352C685.7 340.3 728.3 307.7 771.2 298.5C814 289.3 857 303.7 878.5 310.8L900 318L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z" fill="#0066ff"/><path d="M0 318L21.5 329.5C43 341 86 364 128.8 369.2C171.7 374.3 214.3 361.7 257.2 358.7C300 355.7 343 362.3 385.8 363C428.7 363.7 471.3 358.3 514.2 366.3C557 374.3 600 395.7 642.8 397.3C685.7 399 728.3 381 771.2 365.5C814 350 857 337 878.5 330.5L900 324L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z" fill="#007aff"/><path d="M0 432L21.5 423.3C43 414.7 86 397.3 128.8 389.2C171.7 381 214.3 382 257.2 383C300 384 343 385 385.8 385.2C428.7 385.3 471.3 384.7 514.2 387.3C557 390 600 396 642.8 408.5C685.7 421 728.3 440 771.2 443.7C814 447.3 857 435.7 878.5 429.8L900 424L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z" fill="#008cff"/><path d="M0 452L21.5 462C43 472 86 492 128.8 500.2C171.7 508.3 214.3 504.7 257.2 496.8C300 489 343 477 385.8 467C428.7 457 471.3 449 514.2 446C557 443 600 445 642.8 453.7C685.7 462.3 728.3 477.7 771.2 480.3C814 483 857 473 878.5 468L900 463L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z" fill="#2b9dfc"/><path d="M0 529L21.5 524C43 519 86 509 128.8 510.7C171.7 512.3 214.3 525.7 257.2 528.8C300 532 343 525 385.8 521C428.7 517 471.3 516 514.2 512.8C557 509.7 600 504.3 642.8 510.2C685.7 516 728.3 533 771.2 541.2C814 549.3 857 548.7 878.5 548.3L900 548L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z" fill="#4facf7"/></svg>
+        </div>
+        <header>
+            <h1>AI Image Generator</h1>
+        </header>
+        <div>
+            <button id="start-btn" class="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none" class="svg-icon"><g stroke-width="2" stroke-linecap="round" stroke="#0066ff"><rect y="3" x="9" width="6" rx="3" height="11"></rect><path d="m12 18v3"></path><path d="m8 21h8"></path><path d="m19 11c0 3.866-3.134 7-7 7-3.86599 0-7-3.134-7-7"></path></g></svg>
+                <span class="lable">Record</span>
+            </button>
+        </div>
+        <section class="images-section">
+        </section>
+        <section class="bottom-section">
+            <div class="input-container">
+                <input type="text" id="input">
+                <div id="submit-icon">➢</div>
+            </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+</html> 
